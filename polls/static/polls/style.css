@@ -1,0 +1,13 @@
+body {
+    background: lavenderblush url("images/online-voting.png") no-repeat;
+    background-position: right 30em top 5em;
+    background-size: 15%;
+}
+li a {
+color: blueviolet;
+
+}
+h1{
+    color: blueviolet;
+    font-family: "Felix Titling";
+}

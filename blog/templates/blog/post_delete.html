@@ -1,0 +1,8 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    <form method="POST">
+        {% csrf_token %}
+        <h3><span class="glyphicon glyphicon-trash"></span>  Do you really want to delete?</h3>
+        <button type="submit" class="save btn btn-danger">Delete</button>
+    </form>
+{% endblock %}
